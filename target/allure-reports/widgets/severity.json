@@ -1,0 +1,31 @@
+[ {
+  "uid" : "940d73b91ef7109f",
+  "name" : "checkIsRedirectToAuth()",
+  "time" : {
+    "start" : 1640945480162,
+    "stop" : 1640945482955,
+    "duration" : 2793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eac7a4ca05b0e7a",
+  "name" : "selectAgreementTabPublicSession()",
+  "time" : {
+    "start" : 1640945464933,
+    "stop" : 1640945470060,
+    "duration" : 5127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e16f44792adbcc26",
+  "name" : "checkMinimumReplenishmentAmount()",
+  "time" : {
+    "start" : 1640945471827,
+    "stop" : 1640945480153,
+    "duration" : 8326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "loans.positive.CarLoansPositiveTest",
+      "children" : [ {
+        "name" : "selectAgreementTabPublicSession",
+        "uid" : "4eac7a4ca05b0e7a",
+        "parentUid" : "e6de6f55e7a191e801ed140634e7e0e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640945464933,
+          "stop" : 1640945470060,
+          "duration" : 5127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "loans.positive.CarLoansPositiveTest"
+    }, {
+      "name" : "telecomunications.positive.MobilePhoneReplenishmentPositiveTest",
+      "children" : [ {
+        "name" : "checkMinimumReplenishmentAmount",
+        "uid" : "e16f44792adbcc26",
+        "parentUid" : "c1c42b3273cc5745cce2ad3681cedd05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640945471827,
+          "stop" : 1640945480153,
+          "duration" : 8326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkIsRedirectToAuth",
+        "uid" : "940d73b91ef7109f",
+        "parentUid" : "c1c42b3273cc5745cce2ad3681cedd05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640945480162,
+          "stop" : 1640945482955,
+          "duration" : 2793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "telecomunications.positive.MobilePhoneReplenishmentPositiveTest"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ]
+}

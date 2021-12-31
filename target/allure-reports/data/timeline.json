@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "CRM-BI02",
+    "children" : [ {
+      "name" : "3488@CRM-BI02.main(1)",
+      "children" : [ {
+        "name" : "checkMinimumReplenishmentAmount()",
+        "uid" : "e16f44792adbcc26",
+        "parentUid" : "9c4f5deb7a9b97d189e159607e72353d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640945471827,
+          "stop" : 1640945480153,
+          "duration" : 8326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "selectAgreementTabPublicSession()",
+        "uid" : "4eac7a4ca05b0e7a",
+        "parentUid" : "9c4f5deb7a9b97d189e159607e72353d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640945464933,
+          "stop" : 1640945470060,
+          "duration" : 5127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "checkIsRedirectToAuth()",
+        "uid" : "940d73b91ef7109f",
+        "parentUid" : "9c4f5deb7a9b97d189e159607e72353d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1640945480162,
+          "stop" : 1640945482955,
+          "duration" : 2793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c4f5deb7a9b97d189e159607e72353d"
+    } ],
+    "uid" : "4c23f108caf1cfd10a54ec8a06ec07b1"
+  } ]
+}
