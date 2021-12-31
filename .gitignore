@@ -1,0 +1,10 @@
+/target/
+/build/
+/target/allure-reports/
+/target/allure-reports/data/test-cases/
+/target/allure-reports/data/
+/target/allure-reports/history/
+/target/allure-reports/plugins/
+/target/allure-reports/widgets/
+/target/allure-results/
+/target/classes/
