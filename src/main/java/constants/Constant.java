@@ -21,5 +21,9 @@ public class Constant {
         public static final String FIRST_NAME = "TARAS";
         public static final String LAST_NAME = "SHEVCHENKO";
 
+        public static final String CURRENCY_UAH = "UAH";
+
+        public static final String MOBILE_PAYMENT_CARD_THE_LAST_FOUR_DIGITS = "4506 **** **** 4797";
+
     }
 }

@@ -2,18 +2,11 @@ package pages.base;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.codeborne.selenide.Selenide.$x;
-import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selectors.byText;
+import static com.codeborne.selenide.Selenide.*;
 
-import static constants.Constant.TimeoutVariables.EXPLICIT_WAIT;
 
 public class BasePage {
 
@@ -27,16 +20,22 @@ public class BasePage {
         open(url);
     }
 
-protected void clearAndType(SelenideElement element, String value){
+
+    protected void clearAndType(SelenideElement element, String value){
         while( !element.getAttribute("value").equals("")) element.sendKeys(Keys.BACK_SPACE);
-        element.sendKeys(value);
+        element.setValue(value);
 }
 
     /**
-     * Check is auth frame is
+     * Check is auth frame is displayed
      */
     public void checkIsDisplayedAuthWidget(){
     authWidgetP24New.shouldBe(Condition.visible);
+    }
+
+    public void checkMessage (String message){
+
+        $(byText(message)).shouldBe(Condition.visible);
 
     }
 }

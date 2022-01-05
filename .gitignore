@@ -9,3 +9,5 @@
 /target/allure-results/
 /target/classes/
 /allure-results/
+/target/maven-status/
+/target/test-classes/
